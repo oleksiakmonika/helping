@@ -7,7 +7,7 @@ import Contact from "./Contact";
 import WhoWeHelp from "./WhoWeHelp";
 
 const Home = () => (
-    <section>
+    <section id='home'>
         <h1>Home</h1>
         <Header/>
         <TreeColumns/>
