@@ -1,0 +1,87 @@
+#header {
+  display: flex;
+  width: 100%;
+}
+
+.image {
+  width: 680px;
+}
+
+.div {
+  width: 680px;
+}
+
+.logList, .toDoList, .navList {
+  display: flex;
+
+}
+
+.logList a, .toDoList a, .navList a {
+  text-decoration: none;
+  color: black;
+}
+
+.navList a {
+  font-size: 18px;
+}
+
+.logList a {
+  font-size: 14px;
+}
+
+p {
+  font-family: font-base;
+  font-size: 38px;
+  text-align: center;
+}
+
+.navList {
+
+  justify-content: flex-end;
+
+}
+
+.navItem {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logList {
+  justify-content: flex-end;
+
+}
+
+.logItem {
+  margin-right: 20px;
+}
+
+.toDoList {
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+
+}
+
+.toDoItem {
+  padding-top: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: center;
+  border: 1px solid grey;
+  height: 120px;
+  width: 310px;
+  font-size: 36px;
+
+  a {
+    color: black;
+  }
+}
+
+.image1 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.div1 {
+  padding-top: 100px;
+}
