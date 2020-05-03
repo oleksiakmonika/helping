@@ -1,3 +1,21 @@
 #treeColumns {
-  height: 400px
+  height: 400px;
+  background:orange;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h1, h2 {
+    text-align: center;
+    margin: 20px;
+  }
+}
+#treeColumns h1{
+  font-size: 90px;
+}
+#treeColumns h2{
+  font-size: 18px;
+}
+#treeColumns p{
+  font-size: 16px;
+  margin:10px
 }
